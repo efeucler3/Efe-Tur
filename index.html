@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Efe Turizm</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/Efe Tur.png" type="image/icon type">
+</head>
+
+<body>
+    <nav class="navbar" style="background-color: lightblue;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><b id="logo">Efe Tur</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"> <b>PNR Sorgulama</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hakkimizda">Hakkımızda</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Tüm Taşıma ağımız
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Uçak Biletleri</a></li>
+                            <li><a class="dropdown-item" href="#">Kiralık Araçlar</a></li>
+                            <li><a class="dropdown-item" href="#">EDO Biletleri</a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Sayfada Ara" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Ara</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Otobüs1.jpg" height="800px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/Otobüs2.jpg" height="800px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/Otobüs3.jpg" height="800px" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+    <br>
+<div class="container">
+    <div class="card mb-3">
+        <img src="img/Bilet.png" height="350px" class="card-img-top" alt="...">
+        <div class="card-body">
+            <div id="biletAl" class="row">
+                <div class="col-12">
+                    <label for="gidis">Gidis</label>
+                    <input class="gidisid" type="radio" id="gidis" name="yon" value="gidiş">
+                    <label class="gidis-donid" for="gidis-donus">Gidiş-Dönüş</label>
+                    <input type="radio" id="gidis-donus" name="yon" value="gidiş-donus">
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <input class="rota" placeholder="Nereden" type="text">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <input class="rota" placeholder="Nereye" type="text">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <input class="rota" placeholder="Tarih" type="date">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <input class="rota" placeholder="Yolcu Sayısı" type="number">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<div class="container" id="hakkimizda">
+    <p>Türkiye’nin lider ve öncü karayolu yolcu taşıma şirketi Efe Turizm artık Avrupa’nın en büyük şehirler arası otobüs ağını kuran ve pazar lideri FlixBus’ın iş ortağı! Efe Turizm, FlixBus iş ortaklığıyla sunduğu konforlu ve kaliteli seyahat deneyimine ek olarak, teknolojik hizmetlerini yeni bir seviyeye taşıyacak ve herkes için akıllı bir seyahat seçeneği sunarak yoluna devam edecek. 1926 yılından beri Türkiye’nin birçok ilinde hizmet veren Efe Turizm’la artık Avrupa’nın 35 ülkesine de FlixBus iş ortağımızla seyahat edilebilecek.</p>
+        <br>
+    <p><b>Efe Turizm ile Şehirler Arası Yolculuk</b></p>
+    <p>Yola çıkmak için sebep ne olursa olsun kolay bir şekilde seyahat etmek isteyenler için otobüs, her zaman keyifli bir ulaşım aracıdır. Türkiye'de otobüsle seyahat denince akla ilk gelen marka 1926’dan beri hizmet veren sektörünün öncüsü ve kurucu markası Efe Turizm olmuştur. Yolcularına en iyi ve konforlu seyahat deneyimini sunan Efe Turizm bilet satarken yolcularına sadece uygun fiyatlı seyahat değil ayrıca hostlu ve ikramlı otobüs seferleri, rahat koltuklar ve ücretsiz WiFi gibi olanaklar da sunar. Balıkesir, Trabzon, Sivas, Bolu, İzmir, Ankara, İstanbul seyahati gibi onlarca güzel şehre yolculuk planını uygun bilet fiyatı avantajıyla otobüsle yapabilirsiniz. Hayalinizdeki seyahat için en uygun bilet, web sitemiz ve uygulamamızla bir tık uzağınızda.</p>
+    <br>
+    <p><b>Efe Turizm İnternet Sitesi ile Online Otobüs Bileti Alın</b></p>
+    <p>Yola çıkmadan önce tüm detayları düşünüp, planlamak iyi bir yolculuğun başlangıcıdır. Yolcularımızın bu planlarına keyifli ve konforlu bir seyahat deneyimi sağlamak ise Efe Turizm Otobüsleri olarak bizim yegane amacımız. Filomuzda bulunan yüzlerce otobüs, geniş güzergah ağımız ve online bilet platformumuz aracılığıyla otobüs yolculuğunu şekillendirmeye devam ediyoruz. Yolcularımızın diledikleri yerde ve zamanda, kolay ve güvenli bir şekilde otobüs bileti satın alma imkanı için sürekli geliştirilen Efe Turizm online bilet platformu, sizlere hızlı ve kolay bilet alma deneyimi sunuyor. Nerede olursanız olun otobüs bileti almak için Efe Turizm'un web sitesini veya kullanıcı dostu mobil uygulamasını kullanabilirsiniz. Evinizin rahatlığında, ofisinizden veya aracınızdan, online otobüs bileti Efe Turizm ile istediğiniz an yanı başınızda.</p>
+    <br>
+    <p><b>Neden Efe Turizm otobüs bileti almalısınız?</b></p>
+    <p>Efe Turizm online bilet platformu ile yolcular, herhangi bir güzergahta mevcut olan tüm otobüs seferleri ve kıyaslama yapabilecekleri otobüs bileti fiyatları arasından kendilerine en uygun olanı belirleyebilir. Bilet fiyatları, otobüs saatleri ile otobüste sunulan tüm olanaklar web sitemiz ve mobil uygulamamız üstünden detaylıca görülebilir. Ayrıca yıl içinde gerçekleştirilen dönemsel indirim kampanyalarını yakaladığınızda Efe Turizm otobüs bileti daha da avantajlı hale gelmektedir.</p>
+    <br>
+    <p><b>Efe Turizm E-Bilet ve Avantajları</b></p>
+    <p>Efe Turizm e-bilet sayısız yönden oyunun kurallarını değiştirdi. Fiziksel bir bilet taşımak veya çıktı alma çilesini bitirmekle kalmadı, aynı zamanda yolcuların biletlerinin yanlarında olmaması durumunda inanılmaz bir stres ve hayal kırıklığı ile eve geri dönmek zorunda kalmalarına da son verdi.
+
+        Otobüs bileti satın alma işleminiz tamamlandıktan sonra biletiniz kayıtlı e-posta adresinize e-bilet olarak gönderilir. Üstelik Efe Turizm’un gelişmiş arayüzü ile bu işlemin tamamlanması göz açıp kapayana kadar tamamlanır.
+        
+        Dilerseniz uygulamamızı indirerek ya da cep telefonunuzdan web sitemize giriş yaparak Efe Turizm bilet sorgulama ekranından da o bilet bilgilerine ulaşabilirsiniz. Ayrıca geçmişte yaptığınız seyahatlere ait Efe Turizm biletlerine de her daim kolayca erişebilirsiniz.</p>
+    <br>
+    <p><b>Otobüsüm Nerede?</b></p>
+    <p>Evde hazırlanırken ya da otogarda beklerken otobüsünüzün nerede olduğunu muhakkak merak etmişsinizdir. Efe Turizm, "Otobüsüm Nerede" özelliğiyle bu endişeleri ve çok daha fazlasını giderdi. Artık otobüs kalkış noktasına gidişinizi planlarken endişelerinizi bir kenara koyup otobüsünüzü takip edebilirsiniz.
+
+        Uzaktan gelen sevdiklerinizin karşılanması gerekiyorsa, inecekleri konuma gideceğiniz en uygun zamanı ayarlamak için otobüsün canlı konumunu takip edebilirsiniz. Bu özellik aynı zamanda otobüsteki güvenlik standartlarının iyileştirilmesine katkıda bulunur. Aile üyeleri, sevdiklerinin bindiği otobüsün yerini her zaman takip edebildikleri için rahat bir nefes alabilirler.</p>
+
+</div>
+<br>
+    
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Daha fazlası için kayıt olun</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Kayıt ol
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Otobüs Güzergahları</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Ankara Otobüsleri </a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Bursa Otobüsleri</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">İzmir Otobüsleri</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Antalya Otobüsleri</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">İstanbul Otobüsleri</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Eskişehir Otobüsleri</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Uşak Otobüsleri</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Efe Üçler</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Kurumsal</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Hakkımızda</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Kariyer (İngilizce)</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Basın Odası</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Genel Ticari Hükümler ve Bilet Satış</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Taşıma sözleşmesi</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Görsel Hakları</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Sürdürülebilirlik</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Müşteri hizmetleri</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Yardım</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Hizmetler</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Bilet işlemleri</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Koltuk kategorileri</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Bagaj</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Otobüs</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Otobüs Bileti</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Otobüs Bileti Al</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Sefer Bul</a>
+              </li>
+             
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="">efeucler3</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
